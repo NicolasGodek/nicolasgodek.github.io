@@ -1,0 +1,1 @@
+Exercíco da aula 3.1 da Trybe, que tem o objetivo de criar o meu primeiro Portfólio Web.
