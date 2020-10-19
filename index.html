@@ -3,25 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio Web</title>
+    <style>
+        body{
+            background-color: #0e0e10;
+            color: #efeff1;
+            font-family: Helvetica,Arial,sans-serif
+        }
+        .cor-principal{
+            color: #9147ff;
+        }
+        .titulo-principal{
+        line-height: 55px;
+        font-weight: 600;
+        font-size: 45px;
+        }
+        .foto{
+            border-radius: 50%;
+        }
+        .link{
+        color: #efeff1;
+        background-color: #421561;
+        padding: 5px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        }
+        strong{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1 id=Nome>Nícolas Godek Oliveira</h1>
-    <h3><ul>Índice</h3>
-        <li><a href= "#Nome"><em>Nome</em></a></li>
-        <li><a href= "#imagem"><em>Foto</em></a></li>
-        <li><a href= "#h"><em>Habilidades</em></a></li>
+    <h1 class='cor-principal titulo-principal' id=Nome>Nícolas Godek Oliveira</h1>
+    <h3 class='cor-principal'><ul>Índice</h3>
+        <li><a href= "#Nome"><em class="link">Nome</em></a></li>
+        <br><li><a href= eu.jpg target="_blank" ><em class="link">Foto</em></a></li>
+        <br><li><a href= "#informacao"><em class="link">Informações pessoais</em></a></li>
+        <br><li><a href= "#h"><em class="link">Habilidades</em></a></li>
     </ul>
-    <img id="imagem"src="eu.jpg" alt="eu sorrindo" width="250px">
+    <hr>
+    <img class="foto"src="eu.jpg" alt="eu sorrindo" width="250px">
+    <h4 class='cor-principal'id="informacao">Informações pessoais</h4>
     <p>Nasci em Santos/SP<br>Cresci e morei em Pedro de Toledo/SP
     <br>Fiz faculdade de Engenharia de Petrólio na Faculdade Santa Cecília/Santos<br>
     Atualmente moro em <strong>Florianópolis/SC</strong><br><strong>Brasileiro</strong></p>
-    <h3 id="h">Habilidades</h3>
+    <h4 class='cor-principal' id="h">Habilidades</h3>
     <ul>
-        <li>Econômico</li>
-        <li>Aprendo rápido</li>
-        <li><strong>Inteligente</strong></li>
+        <li><strong>Aprendo rápido</strong></li>
+        <li>Microsoft Word</li>
+        <li>Microsoft Excel</li>
+        <li>HTML</li>
+        <li>CSS</li>
     </ul>
     <p>Gosto muito <a href= "https://www.youtube.com/channel/UCZeN5eLUwiIyMaQjKR_ydVg"
-    target="_blank" ><em>desse canal</a></em></p>
+    target="_blank" ><em class="link">desse canal</a></em></p>
 </body>
 </html>
