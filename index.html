@@ -3,67 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio Web</title>
-    <style>
-        body{
-            background-color: #0e0e10;
-            color: #efeff1;
-            font-family: Helvetica,Arial,sans-serif
-        }
-        .cor-principal{
-            color: #9147ff;
-        }
-        .titulo-principal{
-        line-height: 55px;
-        font-weight: 600;
-        font-size: 45px;
-        }
-        .foto{
-            border-radius: 50%;
-        }
-        .link{
-        color: #efeff1;
-        background-color: #421561;
-        padding: 5px;
-        border-radius: 4px;
-        text-decoration: none;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-        }
-        strong{
-        font-size: 16px;
-        line-height: 20px;
-        }
-        .titulo-secundario{
-        line-height: 40px;
-        font-weight: 700;
-        font-size: 30px;       
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class='cor-principal titulo-principal' id=Nome>Nícolas Godek Oliveira</h1>
-    <h3 class='cor-principal titulo-secundario'><ul>Índice</h3>
-        <li><a class="link" href= "#Nome"><em>Nome</em></a></li>
-        <br><li><a class="link" href= eu.jpg target="_blank" ><em>Foto</em></a></li>
-        <br><li><a class="link" href= "#informacao"><em>Informações pessoais</em></a></li>
-        <br><li><a class="link" href= "#h"><em>Habilidades</em></a></li>
+    <div class="nome">
+        <h1 class='cor-principal titulo-principal' id=Nome>Nícolas Godek Oliveira</h1>
+    </div>
+    <div class ="indice">
+        <h3 class='cor-principal titulo-secundario'><ul>Índice</h3>
+            <li><a class="link" href= "#Nome"><em>Nome</em></a></li>
+            <li><a class="link" href= eu.jpg target="_blank" ><em>Foto</em></a></li>
+            <li><a class="link" href= "#informacao"><em>Informações pessoais</em></a></li>
+            <li><a class="link" href= "#h"><em>Habilidades</em></a></li>
+    </div>
     </ul>
-    <hr>
-    <img class="foto"src="eu.jpg" alt="eu sorrindo" width="250px">
-    <h4 class='cor-principal titulo-secundario'id="informacao">Informações pessoais</h4>
-    <p>Nasci em Santos/SP<br>Cresci e morei em Pedro de Toledo/SP
-    <br>Fiz faculdade de Engenharia de Petróleo na Faculdade Santa Cecília/Santos<br>
-    Atualmente moro em <strong>Florianópolis/SC</strong><br><strong>Brasileiro</strong></p>
-    <h4 class='cor-principal titulo-secundario' id="h">Habilidades</h3>
-    <ul>
-        <li><strong>Aprendo rápido</strong></li>
-        <li>Microsoft Word</li>
-        <li>Microsoft Excel</li>
-        <li>HTML</li>
-        <li>CSS</li>
+    <div class="descrição">
+        <img class="foto"src="eu.jpg" alt="eu sorrindo" width="250px">
+        <h4 class='cor-principal titulo-secundario'id="informacao">Informações pessoais</h4>
+        <p>Nasci em Santos/SP<br>Cresci e morei em Pedro de Toledo/SP
+        <br>Fiz faculdade de Engenharia de Petróleo na Faculdade Santa Cecília/Santos<br>
+        Atualmente moro em <strong>Florianópolis/SC</strong><br><strong>Brasileiro</strong></p>
+    </div>
+    <div class="habilidades">
+        <h4 class='cor-principal titulo-secundario' id="h">Habilidades</h3>
+        <ul>
+            <li><strong>Aprendo rápido</strong></li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>HTML</li>
+            <li>CSS</li>
+    </div>
     </ul>
-    <p>Gosto muito <a class="link" href= "https://www.youtube.com/channel/UCZeN5eLUwiIyMaQjKR_ydVg"
-    target="_blank" ><em>desse canal</a></em></p>
+    <p>Atualmente estou estudando na <a class="link" href= "https://www.betrybe.com/"
+    target="_blank" ><em>Trybe</a></em></p>
 </body>
 </html>

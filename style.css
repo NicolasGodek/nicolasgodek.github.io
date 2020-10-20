@@ -1,0 +1,63 @@
+body{
+    background-color: #0e0e10;
+    color: #efeff1;
+    font-family: Helvetica,Arial,sans-serif
+}
+.cor-principal{
+    color: #9147ff;
+}
+.titulo-principal{
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 45px;
+}
+*{
+    margin-left: 5px;
+}
+.foto{
+    border-radius: 40%;
+    border: 6px ridge #421561;
+    float: left;
+    margin: 10px 30px 10px 0;
+}
+.link{
+    color: #efeff1;
+    background-color: #421561;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+strong{
+    font-size: 16px;
+    line-height: 20px;
+}
+.titulo-secundario{
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 30px;       
+}
+.nome{
+    text-align: center;
+    padding: 10px;
+}
+.indice{
+    padding: 0 0 30px;
+    background-color: #18181b;
+}
+.indice li {
+    margin-bottom: 15px;
+}
+.descrição{
+    margin-bottom: 130px;
+}
+.descrição p {
+    margin-bottom: 5px;
+}
+.habilidades{
+    background-color: #18181b;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
